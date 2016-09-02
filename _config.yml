@@ -8,7 +8,7 @@ description: "Coming soon..."
 # Color settings (hex-codes without the leading hash-tag)
 color:
   primary-dark: '#000000'
-  links: '#3366ff'
+  links: '#0000ff'
 
 # Footer settings
 footer: Andrew JS Maguire
