@@ -52,10 +52,11 @@ a {
     transition: all .2s ease-in-out;
 }
 
-a:link    { color: #c00 }  /* unvisited links */
-a:visited { color: #0c0 }  /* visited links   */
-a:hover   { color: #00c }  /* user hovers     */
-a:active  { color: #ccc }  /* active links    */
+a:hover,
+a:focus {
+    text-decoration: none;
+    color: #1154CB;
+}
 
 .light {
     font-weight: 400;
