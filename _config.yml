@@ -1,2 +1,17 @@
-name: Andrew JS Maguire
+# Site settings
+title: Andrew JS Maguire
+email: ajm221@pitt.edu
+url: https://andrewjsmaguire.github.io
+description: "A work in progress..."
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary-dark: '#000000'
+  links: '#219ab3'
+
+# Footer settings
+footer: Andrew JS Maguire
+
+# Build settings
 markdown: kramdown
+permalink: pretty

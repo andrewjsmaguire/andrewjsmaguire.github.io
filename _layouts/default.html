@@ -1,25 +1,14 @@
 <!DOCTYPE html>
 <html>
-     <head>
-          <title>{{ page.title }}</title>
-			<link rel="stylesheet" type="text/css" href="/css/main.css">
-		</head>
-	<body>
-          <h2>{{ page.title }}</h2>
-
-          <nav>
-               <ul>
-	        		<li><a href="/">Home</a></li>
-		        	<li><a href="/work">Work</a></li>
-	        		<li><a href="/music">Music</a></li>
-	        		<li><a href="/contact-me">Contact Me</a></li>
-	    		</ul>
-		</nav>
-
-          <div class="container">
-			{{ content }}
-		</div>
-
-          <footer></footer>
-	</body>
+    {% include head.html %}
+    <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+    {% include nav.html %}
+    {% include header.html %}
+    {% include about.html %}
+    {% include download.html %}
+    {% include contact.html %}
+    {% include map.html %}
+    {% include footer.html %}
+    {% include js.html %}
+    </body>
 </html>
