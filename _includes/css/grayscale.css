@@ -55,10 +55,7 @@ a {
 a:hover,
 a:focus {
     text-decoration: none;
-    color: #1154CB;
     background: -webkit-linear-gradient(#4D5FF8, #D660A5);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
 }
 
 .light {
