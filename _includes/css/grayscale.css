@@ -138,7 +138,7 @@ a:focus {
     height: auto;
     padding: 100px 0;
     text-align: center;
-    color: #fff;
+    color: #333;
     background: /*img url*/ no-repeat bottom center scroll;
     /*background-color: {{ site.color.primary-dark }};*/
     background: linear-gradient(to right, white , #F2F2F2);
